@@ -30,7 +30,7 @@ jobs:
         docker build -t pugliesse/teslo-shop:1.1.2 .  
     - name: Docker Image Push
       run:
-        docker push pugliesse/teslo-shop:1.1.2 .   
+        docker push pugliesse/teslo-shop:1.1.2  
      
         
         
